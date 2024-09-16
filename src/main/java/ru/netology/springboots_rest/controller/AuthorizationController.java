@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import ru.netology.springboots_rest.enums.Authorities;
 import ru.netology.springboots_rest.exception.InvalidCredentials;
-import ru.netology.springboots_rest.exception.UnauthorizedUser;
 import ru.netology.springboots_rest.service.AuthorizationService;
+import ru.netology.springboots_rest.exception.UnauthorizedUser;
 
 import java.util.List;
 
